@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap');
+
+* { margin:0;
+    padding:0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#background{
+background: linear-gradient(90deg, rgb(152, 227, 250), rgb(253, 173, 204));
+background-size: cover;
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#calculadora{
+
+    display: inline-block;
+    background-color: rgba(27, 2, 27, 0.8);
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+#resultado{
+    box-sizing: border-box;
+    border: rgba(0, 0, 0, 0.5) solid 0.5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 6px;
+    height: 50px;
+    padding: 10px 5px;
+    margin: 12px 0;
+    text-align: right;
+    font-size: 20px;
+}
+
+.teclas{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: rgb(58, 18, 43);
+    color: rgb(255, 255, 255);
+
+    
+}
+
+.tecla_width {
+    width: 106px;
+   
+}
+
+.tecla_height {
+    height: 106px;;
+}
+
+.teclas:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
